@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+ <div class="container">
+ <h1>My Portfolio</h1>
+ <nav>
+<ul>
+ <li><a href="#about">About</a></li>
+ <li><a href="#projects">Projects</a></li>
+ <li><a href="#contact">Contact</a></li>
+ </ul>
+</nav>
+ </div>
+</header>
+
+ <section id="about" class="section">
+ <div class="container">
+ <h2>About Me</h2>
+ <p>Hi! I'm Kartik, a Kiet student. I Know html and css. My passion lies in Web dev.</p>
+ </div>
+ </section>
+
+<section id="projects" class="section">
+ <div class="container">
+<h2>My Projects</h2>
+ <div class="projects-grid">
+<div class="project-card">
+ <h3>Project 1</h3>
+ <p> I Know basic html and css</p>
+</div>
+<div class="project-card">
+ <h3>Project 2</h3>
+ <p>I made a collage time table </p>
+ </div>
+ <div class="project-card">
+ <h3>Project 3</h3>
+ <p>Basic html page</p>
+ </div>
+</div>
+</div>
+</section>
+
+ <section id="contact" class="section">
+ <div class="container">
+ <h2>Contact Me</h2>
+ <p>Feel free to reach out to me via the following platforms:</p>
+ <ul class="contact-list">
+ <li>Email: <a href="kartikdhalyan1@gmail.com">your.email@example.com</a></li>
+ <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your LinkedIn</a></li>  <li>GitHub: <a href="https://github.com/yourprofile" target="_blank">Your GitHub</a></li>
+ </ul>
+ </div>
+ </section>
+
+ <footer>
+ <div class="container">
+ <p>© 2024 [Kartik]. All Rights Reserved.</p>
+ </div>
+</footer>
+</body>
+</html>
+
